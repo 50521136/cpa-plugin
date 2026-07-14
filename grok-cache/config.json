@@ -1,4 +1,5 @@
 {
+  "schema_version": 1,
   "enable": true,
   "cacheMode": "memory",
   "memoryMaxSize": 2000,
