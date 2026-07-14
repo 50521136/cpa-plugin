@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "enable": true,
+  "cache_mode": "memory",
+  "memory_max": 2000,
+  "cache_ttl_ms": 21600000,
+  "redis_url": "redis://127.0.0.1:6379",
+  "skip_stream": true,
+  "skip_models": ["grok-search-real-time"],
+  "cache_prefix": "grok_cache:"
+}
