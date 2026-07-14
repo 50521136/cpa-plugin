@@ -1,0 +1,10 @@
+{
+  "enable": true,
+  "cacheMode": "memory",
+  "memoryMaxSize": 2000,
+  "cacheTTL": 21600000,
+  "redisUrl": "redis://127.0.0.1:6379",
+  "skipStream": true,
+  "skipModelList": ["grok-search-real-time"],
+  "cacheKeyPrefix": "grok_proxy_cache:"
+}
